@@ -1,0 +1,99 @@
+
+
+.header{
+    display: inline;
+}
+
+
+.backBtn {
+  display: flex;
+  justify-content: end;
+  margin-right: 60px;
+  margin-top: -70px;
+  padding-bottom: 8px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  display: block;
+  font-weight: bold;
+
+  text-align: center;
+  text-decoration: none;
+  width: 80px;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+.nightmode .btn {
+  background-color: white;
+  color: black;
+}
+.backIcon {
+  display: inline-block;
+  transform: rotate(180deg);
+  margin-right: 10px;
+}
+
+.myFirstBlog {
+  font-size: 2rem;
+  margin-left: 30px;
+ padding: 5px;
+  font-weight: bold;
+  
+}
+
+.articleTitle {
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-bottom: 2px solid black;
+}
+.articleContent {
+  margin: 12px;
+  min-height: 80px;
+}
+.articleAuthor {
+  color: rgba(245, 194, 241, 0.416);
+}
+
+.article {
+  padding: 8px 10px 5px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 99%;
+  margin: 6px;
+}
+
+.footer {
+  color: black;
+  margin: 40px 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.liItem {
+  margin-bottom: 10px;
+  list-style: none;
+  text-align: left;
+  padding: 0px;
+  font-weight: lighter;
+}
+h6 {
+  text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+  .article__title {
+    font-size: 1.45rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .article__title {
+    font-size: 1.5rem;
+  }
+}
+main {
+  flex-direction: column;
+  padding: 10px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/form.css" />
+  </head>
+  <body class="day">
+    <header>
+      <nav>
+        <button id="theme-switch">
+          
+          <img src="./assets/images/pngtree-vector-moon-icon-png-image_1024711.jpg" alt="nightIcon" class="icon1" />
+          <img
+            src="./assets/images/sun-icon-simple-design-free-vector.jpg"
+            alt="dayIcon"
+            class="icon2"
+          />
+        </button>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="section">
+        <h1 class="logo">My First Blog</h1>
+      </section>
+
+      <section class="section">
+        <h2>What's on your mind?</h2>
+    
+        <form id="blog-form">
+          <div class="form">
+            <label class="formLabel">Username</label>
+            <input type="text" class="formInput" id="username" />
+          </div>
+          <div class="form">
+            <label class="formLabel">Title</label>
+            <input type="text" class="formInput" id="title" />
+          </div>
+          <div class="form">
+            <label class="formLabel">Content</label>
+            <textarea type="text" class="formInput" id="content"></textarea>
+          </div>
+
+          <button id="submit" class="btn">Submit</button>
+        </form>
+
+        <script src="./assets/JS/logic.js"></script>
+        <script src="./assets/JS/form.js"></script>
+      </section>
+    </main>
+  </body>
+</html>
