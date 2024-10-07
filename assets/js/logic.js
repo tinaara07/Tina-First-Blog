@@ -1,4 +1,3 @@
-// theme switching
 let nightmode = localStorage.getItem("nightmode");
 const themeSwitch = document.getElementById("theme-switch");
 

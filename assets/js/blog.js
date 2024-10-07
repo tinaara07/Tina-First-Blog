@@ -1,4 +1,4 @@
-const blogPosts = document.getElementById("blogPosts"); // related to the HTML line 36
+const blogPosts = document.getElementById("blogPosts"); 
 
 function displayInput() {
   const input = JSON.parse(localStorage.getItem("blogPosts")) || []; // return as empty arrey  input is the data that user will input
